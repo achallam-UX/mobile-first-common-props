@@ -160,7 +160,7 @@ a:focus {
 /* TO DO: Add styles here for all of the links on the page. Include text color, and don't forget the important styles like hover and focus! */
 
 /* IMAGE STYLES */
-img.svg {
+img, svg {
     display: block;
     width: 100%;
     height: auto;
@@ -241,12 +241,13 @@ p {
 
 
 #contact p > a{
- #contact p > a:hover {
+    display: inline;
+    padding: 0;
+}
+#contact p > a:hover {
     text-decoration: none;
     background-color: var(--wht);
- }   /* display: inline;
-    padding: 0; */
-}
+}    
 
 /* TO DO: Add hover styles to the link in the paragraph in the contact section. Remove the underline and make the background color white */
 

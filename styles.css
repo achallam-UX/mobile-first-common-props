@@ -182,10 +182,6 @@ nav a {
     border: 4px solid var(--blue-gray);
 }
 
-nav a:hover {
-    border-style: inset;
-    background-color: var(--blue-gray);
-}
 
 nav a:hover {
     border-style: inset;
